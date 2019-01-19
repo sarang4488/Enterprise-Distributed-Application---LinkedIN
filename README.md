@@ -23,19 +23,19 @@ Features:
 
 Steps to run the application:
 
-Back-end server
+Back-end server =>
 
 • cd Backend
 • npm install
 • nodemon index.js
 
-Front-end server
+Front-end server =>
 
 • cd frontend
 • npm install
 • npm start
 
-Kafka
+Kafka =>
 
 • Run zookeeper kafka and create topics 
 bin/zookeeper-server-start.sh config/zookeeper.properties
@@ -114,7 +114,7 @@ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 -
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic response_topic
 
 
-• cd homeaway-kafka
+• cd kafka backend
 • npm install
 • nodemon server.js
 
